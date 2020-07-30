@@ -7,9 +7,9 @@ require_once "ape.php";
 $sheep = new Animal();
 
 echo "<br>";
-echo $sheep->get_name("shaun") . "<br>"; // "shaun"
-echo $sheep->get_legs(2) . "<br>"; // 2
-echo $sheep->get_cold_blooded("false") . "<br>"; // false
+echo $sheep->get_name("shaun"); // "shaun"
+echo $sheep->get_legs(2); // 2
+echo $sheep->get_cold_blooded("false"); // false
 
 //class ape dan frog
 $sungokong = new Ape("kera sakti");
